@@ -4,6 +4,6 @@ Moodboard figma : https://www.figma.com/design/rUHWoU2Hcrs5Pu5Dvig6QA/Moodboard-
 
 Lien Trello : https://trello.com/b/ttJ8E5df/portfolio-yannick-chamberland
 
-Choix de type de navigation :
+Choix de type de navigation : multipage
 
-Choix composante vue.js : 
+Choix composante vue.js : Galerie interactive / Carrousel / Lightbox
