@@ -1,0 +1,25 @@
+body{
+    background-color: #10002B;
+}
+
+h1{
+    color: white;
+}
+
+header{
+    background-color: #7B2CBF;
+}
+
+.textA{
+    background-color: #5A189A;
+}
+
+.card{
+    background-color: #E0AAFF;
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    color: white;
+}
