@@ -11,6 +11,12 @@ h2{
 h3{
     color: #5A189A;
 }
+.D{
+    margin-left: 190px;
+}
+.Audio{
+    margin-left: 180px;
+}
 header{
     background-color: #7B2CBF;
 }
@@ -30,10 +36,15 @@ p{
     color: #5A189A;
 }
 
+.img2{
+    width: auto;
+    height: 267px;
+}
+
 .btn{
     color:white;
-    background-color: #3C096C;
+    background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
     border-radius: 20%;
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 160px;
 }
