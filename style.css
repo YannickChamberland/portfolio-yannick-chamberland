@@ -1,19 +1,30 @@
+@font-face {
+    font-family: CT;
+    src: url(/font/CrimsonText-Regular.ttf) format(truetype); /*Ajout des fonts*/
+    font-family: Rampart;
+    src : url(/font/RampartOne-Regular.ttf) format(truetype);
+}
+
 body{
     background-color: #10002B;
 }
 a{
     color: white;
+    font-family: CT;
 }
 h1{
     color: white;
+    font-family: Rampart;
 }
 h2{
     color: white;
     margin-left: 460px;
     margin-top: 50px;
+    font-family: Rampart;
 }
 h3{
     color: #5A189A;
+    font-family: Rampart;
 }
 .D{
     margin-left: 190px;
@@ -33,7 +44,7 @@ header{
     margin-top: 50px;
 }
 
-.card{
+.card{ /*Section carte*/
     background-color: #FFF9EB;
     width: 500px;
     height: 500px;
@@ -42,6 +53,7 @@ header{
 
 p{
     color: #5A189A;
+    font-family: CT;
 }
 
 .img2{
@@ -51,8 +63,9 @@ p{
 
 .btn{
     color:white;
+    font-family: Rampart;
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
     border-radius: 20%;
-    margin-top: 100px;
+    margin-top: 100px; /*Permet de placer le bouton correctement dans la carte*/
     margin-left: 160px;
 }
