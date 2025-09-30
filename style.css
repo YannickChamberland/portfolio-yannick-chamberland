@@ -1,12 +1,16 @@
 body{
     background-color: #10002B;
 }
-
+a{
+    color: white;
+}
 h1{
     color: white;
 }
 h2{
     color: white;
+    margin-left: 1100px;
+    margin-top: 50px;
 }
 h3{
     color: #5A189A;
