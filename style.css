@@ -9,7 +9,7 @@ h1{
 }
 h2{
     color: white;
-    margin-left: 1100px;
+    margin-left: 460px;
     margin-top: 50px;
 }
 h3{
@@ -24,10 +24,13 @@ h3{
 header{
     background-color: #7B2CBF;
 }
-
+#moi{
+    margin-top: 50px;
+}
 .textA{
     background-color: #FFF9EB;
-    font-size: larger;
+    font-size: 35px;
+    margin-top: 50px;
 }
 
 .card{
