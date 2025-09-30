@@ -5,21 +5,23 @@ body{
 h1{
     color: white;
 }
-
+h2{
+    color: white;
+}
 header{
     background-color: #7B2CBF;
 }
 
 .textA{
-    background-color: #5A189A;
+    background-color: #FFF9EB;
 }
 
 .card{
-    background-color: #E0AAFF;
-    width: 100px;
-    height: 100px;
+    background-color: #FFF9EB;
+    width: 500px;
+    height: 500px;
 }
 
 p{
-    color: white;
+    color: #5A189A;
 }
