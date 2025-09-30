@@ -43,7 +43,12 @@ header{
     font-size: 35px;
     margin-top: 50px;
 }
-
+#boutonA{
+    color: white;
+    font-family: Rampart;
+    background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
+    margin-left: 160px;
+}
 .card{ /*Section carte*/
     background-color: #FFF9EB;
     width: 500px;
@@ -61,7 +66,7 @@ p{
     height: 267px;
 }
 
-.btn{
+#boutoncarte{
     color:white;
     font-family: Rampart;
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
