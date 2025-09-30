@@ -8,6 +8,9 @@ h1{
 h2{
     color: white;
 }
+h3{
+    color: #5A189A;
+}
 header{
     background-color: #7B2CBF;
 }
@@ -20,8 +23,15 @@ header{
     background-color: #FFF9EB;
     width: 500px;
     height: 500px;
+    margin: 50px;
 }
 
 p{
     color: #5A189A;
+}
+
+.btn{
+    color:white;
+    background-color: #3C096C;
+    border-radius: 20%;
 }
