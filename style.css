@@ -1,51 +1,63 @@
 @font-face {
     font-family: CT;
-    src: url(font/CrimsonText-Regular.ttf) format(truetype); /*Ajout des fonts*/
+    src: url(font/CrimsonText-Regular.ttf) format(truetype);
+    /*Ajout des fonts*/
     font-family: Rampart;
-    src : url(font/RampartOne-Regular.ttf) format(truetype);
+    src: url(font/RampartOne-Regular.ttf) format(truetype);
 }
 
-body{
+body {
     background-color: #10002B;
 }
-a{
+
+a {
     color: white;
     font-family: CT;
 }
-h1{
+
+h1 {
     color: white;
     font-family: Rampart;
 }
-h2{
+
+h2 {
     color: white;
     text-align: center;
     padding-top: 5vh;
     font-family: Rampart;
 }
-h3{
+
+h3 {
     color: #5A189A;
     font-family: Rampart;
 }
-.D{
+
+.D {
     text-align: center;
 }
-.Audio{
+
+.Audio {
     text-align: center;
 }
-header{
+
+header {
     background-color: #7B2CBF;
 }
-#moi{
+
+#moi {
     margin-top: 50px;
 }
-#divA{
+
+#divA {
     background-color: #FFF9EB;
     margin-top: 50px;
 }
-.textA{
+
+.textA {
     font-size: 35px;
 }
-#boutonA{
+
+#boutonA {
     color: white;
     font-family: Rampart;
     font-size: larger;
@@ -53,62 +65,87 @@ header{
     margin-left: 170px;
     margin-top: 50px;
 }
+
 #boutonA:hover {
     background-image: linear-gradient(to bottom, #3C096C, #3C096C);
 }
-.card{ /*Section carte*/
+
+.card {
+    /*Section carte*/
     background-color: #FFF9EB;
     width: 500px;
     height: 500px;
     margin: 50px;
 }
 
-p{
+p {
     color: #5A189A;
     font-family: CT;
 }
 
-.img2{
+.img2 {
     width: auto;
     height: 267px;
 }
 
-#boutoncarte{
-    color:white;
+#boutoncarte {
+    color: white;
     font-family: Rampart;
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
-    margin-top: 100px; /*Permet de placer le bouton correctement dans la carte*/
+    margin-top: 100px;
+    /*Permet de placer le bouton correctement dans la carte*/
     margin-left: 150px;
     font-size: larger;
 }
-#boutoncarte:hover{
+
+#boutoncarte:hover {
     background-image: linear-gradient(to bottom, #3C096C, #3C096C);
 }
 
-#divC{
+#divC {
     background-color: #FFF9EB;
     margin-top: 50px;
     height: 120px;
 }
-.textC{
+
+.textC {
     font-size: 35px;
 }
-#moi2{
+
+#moi2 {
     margin-top: 50px;
 }
-#divC2{
+
+#divC2 {
     background-color: #FFF9EB;
     margin-top: 50px;
     height: 120px;
 }
-#divC3{
+#divC2:hover{
+    -webkit-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
+    -moz-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
+    box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
+}
+#divC3 {
     background-color: #FFF9EB;
     margin-top: 50px;
     height: 120px;
+
 }
-.textC2{
+#divC3:hover{
+    -webkit-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1); /*Code pour effet de glow*/
+    -moz-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
+    box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
+}
+.textC2 {
     font-size: 35px;
 }
-.textC3{
+
+.textC3 {
     font-size: 35px;
+}
+
+.sectionC {
+    display: flex;
+    justify-content: space-between;
 }
