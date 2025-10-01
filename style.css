@@ -89,7 +89,11 @@ p{
 #divC{
     background-color: #FFF9EB;
     margin-top: 50px;
+    height: 120px;
 }
 .textC{
     font-size: 35px;
+}
+#moi2{
+    margin-top: 50px;
 }
