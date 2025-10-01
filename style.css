@@ -27,10 +27,10 @@ h3{
     font-family: Rampart;
 }
 .D{
-    margin-left: 190px;
+    text-align: center;
 }
 .Audio{
-    margin-left: 180px;
+    text-align: center;
 }
 header{
     background-color: #7B2CBF;
@@ -52,6 +52,9 @@ header{
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
     margin-left: 170px;
     margin-top: 50px;
+}
+#boutonA:hover {
+    background-image: linear-gradient(to bottom, #3C096C, #3C096C);
 }
 .card{ /*Section carte*/
     background-color: #FFF9EB;
@@ -76,5 +79,9 @@ p{
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
     border-radius: 20%;
     margin-top: 100px; /*Permet de placer le bouton correctement dans la carte*/
-    margin-left: 160px;
+    margin-left: 150px;
+    font-size: larger;
+}
+#boutoncarte:hover{
+    background-image: linear-gradient(to bottom, #3C096C, #3C096C);
 }
