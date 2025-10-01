@@ -1,8 +1,8 @@
 @font-face {
     font-family: CT;
-    src: url(/font/CrimsonText-Regular.ttf) format(truetype); /*Ajout des fonts*/
+    src: url(font/CrimsonText-Regular.ttf) format(truetype); /*Ajout des fonts*/
     font-family: Rampart;
-    src : url(/font/RampartOne-Regular.ttf) format(truetype);
+    src : url(font/RampartOne-Regular.ttf) format(truetype);
 }
 
 body{
