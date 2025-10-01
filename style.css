@@ -147,5 +147,5 @@ p {
 
 .sectionC {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*Espacement des deux section*/
 }
