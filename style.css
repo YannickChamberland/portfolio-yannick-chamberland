@@ -38,16 +38,20 @@ header{
 #moi{
     margin-top: 50px;
 }
-.textA{
+#divA{
     background-color: #FFF9EB;
-    font-size: 35px;
     margin-top: 50px;
+}
+.textA{
+    font-size: 35px;
 }
 #boutonA{
     color: white;
     font-family: Rampart;
+    font-size: larger;
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
-    margin-left: 160px;
+    margin-left: 170px;
+    margin-top: 50px;
 }
 .card{ /*Section carte*/
     background-color: #FFF9EB;
