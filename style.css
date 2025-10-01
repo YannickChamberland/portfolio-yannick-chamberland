@@ -85,3 +85,11 @@ p{
 #boutoncarte:hover{
     background-image: linear-gradient(to bottom, #3C096C, #3C096C);
 }
+
+#divC{
+    background-color: #FFF9EB;
+    margin-top: 50px;
+}
+.textC{
+    font-size: 35px;
+}
