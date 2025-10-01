@@ -18,7 +18,8 @@ h1{
 }
 h2{
     color: white;
-    margin-left: 1000px;
+    text-align: center;
+    padding-top: 5vh;
     font-family: Rampart;
 }
 h3{
