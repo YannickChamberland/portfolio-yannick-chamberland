@@ -77,7 +77,6 @@ p{
     color:white;
     font-family: Rampart;
     background-image: linear-gradient(to bottom, #7B2CBF, #3C096C);
-    border-radius: 20%;
     margin-top: 100px; /*Permet de placer le bouton correctement dans la carte*/
     margin-left: 150px;
     font-size: larger;
