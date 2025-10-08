@@ -157,3 +157,7 @@ p {
         justify-content: space-between; /*Espacement des deux section*/
     }
 }
+
+#divP{
+    background-color: #FFF9EB;
+}
