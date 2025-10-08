@@ -149,3 +149,11 @@ p {
     display: flex;
     justify-content: space-between; /*Espacement des deux section*/
 }
+
+@media screen and (max-width: 980px) { 
+    .sectionC {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /*Espacement des deux section*/
+    }
+}
