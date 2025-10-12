@@ -174,3 +174,37 @@ p {
 #divP2{
     background-color: #FFF9EB;
 }
+
+#sectionP2{
+    background-color: #5A189A;
+    margin-top: 25px;
+}
+
+#titreP2{
+    color: #FFF9EB;
+    text-align: center;
+}
+
+#divP3{
+    background-color: #FFF9EB;
+    text-align: center;
+    font-size: larger;
+}
+
+#divP4{
+    background-color: #10002B;
+    text-align: center;
+    font-size: larger;
+}
+
+#textP2{
+    color: #FFF9EB;
+}
+
+.imgP{
+    width: 45px;
+}
+
+.imgP2{
+    width: 65px;
+}
