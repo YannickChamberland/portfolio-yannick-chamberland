@@ -158,7 +158,14 @@ p {
     }
 }
 
-
+.sectionP{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /*Espacement des deux section*/
+    text-align: center;
+    font-size: larger;
+    margin-top: 15px;
+}
 
 #divP{
     background-color: #FFF9EB;
