@@ -1,8 +1,9 @@
 const app = Vue.createApp({
 data: function (){
     return {
-       /* projetArr: [
+        projetArr: [
             {
+                id: 1,
                 titre: "Paysage",
                 type: "Audio et Animation 3D",
                 logiciel: "Maya, Reaper et Max",
@@ -11,6 +12,7 @@ data: function (){
                 mention : ""
             },
             {
+                id: 2,
                 titre: "Personnage",
                 type: "3D",
                 logiciel: "Maya",
@@ -19,6 +21,7 @@ data: function (){
                 mention : ""
             },
             {
+                id: 3,
                 titre: "Paysage abstrait",
                 type: "3D",
                 logiciel: "Maya",
@@ -28,6 +31,7 @@ data: function (){
                 equipe : ""
             },
             {
+                id: 4,
                 titre: "media_131_T_MULTI_chamberland_yannick",
                 type: "Audio",
                 logiciel: "Reaper",
@@ -36,6 +40,7 @@ data: function (){
                 mention : ""
             },
             {
+                id: 5,
                 titre: "131_T_MICRO_chamberland_yannick",
                 type : "Audio",
                 logiciel : "Reaper",
@@ -43,7 +48,7 @@ data: function (){
                 cadre : "",
                 mention : ""
             }
-        ] */
+        ] 
     }
 }
 })
