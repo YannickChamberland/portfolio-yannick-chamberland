@@ -6,4 +6,4 @@ Lien Trello : https://trello.com/b/ttJ8E5df/portfolio-yannick-chamberland
 
 Choix de type de navigation : multipage
 
-Choix composante vue.js : Galerie interactive / Carrousel / Lightbox
+Choix composante vue.js : Carrousel
