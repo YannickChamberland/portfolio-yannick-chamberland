@@ -1,7 +1,7 @@
 const app = Vue.createApp({
 data: function (){
     return {
-        projetArr: [
+       /* projetArr: [
             {
                 titre: "Paysage",
                 type: "Audio et Animation 3D",
@@ -43,7 +43,7 @@ data: function (){
                 cadre : "",
                 mention : ""
             }
-        ]
+        ] */
     }
 }
 })
