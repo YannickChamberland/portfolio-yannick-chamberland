@@ -5,20 +5,22 @@ const app = Vue.createApp({
       }
     },
   
-   
     mounted() {
-      fetch('projets.json') // fait le fetch dans le json projets
-        .then(response => response.json())
+      fetch('projets.json') // chemin vers fichier JSON
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Erreur lors du chargement du fichier JSON");
+          }
+          return response.json();
+        })
         .then(data => {
-          this.projets = data
+          this.projets = data; // stocke le JSON dans le tableau projets
         })
         .catch(error => {
-          console.error('Erreur lors du chargement du JSON :', error)
-        })
-    },
+          console.error('Erreur lors du chargement du JSON :', error);
+        });
+    }
+  });
   
-    methods: {}
-  })
-
-
-app.mount('#app');
+  app.mount('#app');
+  

@@ -28,7 +28,7 @@
         },
         {
             "id": 4,
-            "titre": "media_131_T_MULTI_chamberland_yannick",
+            "titre": "MULTI",
             "type": "Audio",
             "logiciel": "Reaper",
             "description" : "",
@@ -37,7 +37,7 @@
         },
         {
             "id": 5,
-            "titre": "131_T_MICRO_chamberland_yannick",
+            "titre": "MICRO",
             "type" : "Audio",
             "logiciel" : "Reaper",
             "description" : "",
