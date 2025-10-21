@@ -1,6 +1,5 @@
-{
-    "projets": [
-        {
+[
+    {
             "id": 1,
             "titre": "Paysage",
             "type": "Audio et Animation 3D",
@@ -45,5 +44,4 @@
             "cadre" : "",
             "mention" : ""
         }
-    ]
-}
+]
