@@ -220,5 +220,11 @@ p {
 }
 
 #sectionPR2{
+    margin-top: 50px;
     background-color: #5A189A;
+    text-align: center;
+}
+
+#titrePR{
+    color: #FFF9EB;
 }
