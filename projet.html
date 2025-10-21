@@ -10,33 +10,41 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-    
+
 </head>
 
 <body>
     <div id="app" class="container">
         <header class="mb-4">
-          <h1>Portfolio de Yannick Chamberland</h1>
-          <nav>
-            <a href="accueil.html">Accueil</a> |
-            <a href="projet.html">Projets</a> |
-            <a href="contact.html">Contact</a> |
-            <a href="propos.html">À propos</a>
-          </nav>
+            <h1>Portfolio de Yannick Chamberland</h1>
+            <nav>
+                <a href="accueil.html">Accueil</a> |
+                <a href="projet.html">Projets</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="propos.html">À propos</a>
+            </nav>
         </header>
-    
+
         <div id="sectionPR" class="row">
-          <div v-for="(projet, index) in projets" :key="index" class="col-lg-5">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">{{ projet.titre }}</h3>
-                <p><strong>Type :</strong> {{ projet.type }}</p>
-                <p><strong>Logiciel :</strong> {{ projet.logiciel }}</p>
-              </div>
+            <div v-for="(projet, index) in projets" :key="index" class="col-lg-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">{{ projet.titre }}</h3>
+                        <p><strong>Type :</strong> {{ projet.type }}</p>
+                        <p><strong>Logiciel :</strong> {{ projet.logiciel }}</p>
+                        <p><strong>Description :</strong> {{ projet.description }}</p>
+                        <p><strong>Cadre :</strong> {{ projet.cadre }}</p>
+                        <p><strong>Mention :</strong> {{ projet.mention }}</p>
+                        <p><strong>Cooéquipier :</strong> {{ projet.cooequipier }}</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <div id="sectionPR2">
+        <h3>Processus de création</h3>
+    </div>
     <script src="script.js"></script>
 </body>
 

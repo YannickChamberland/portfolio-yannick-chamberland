@@ -4,44 +4,45 @@
             "titre": "Paysage",
             "type": "Audio et Animation 3D",
             "logiciel": "Maya, Reaper et Max",
-            "description" : "",
-            "cadre" : "",
-            "mention" : ""
+            "description" : "Réaliser un paysage sonore sur un thème choisi qui doit évoquer des émotions aux utilisateurs et créer un court métrage d'animation en lien avec le thème choisi.",
+            "cadre" : "École",
+            "mention" : "Individuel"
         },
         {
             "id": 2,
             "titre": "Personnage",
             "type": "3D",
             "logiciel": "Maya",
-            "description" : "",
-            "cadre" : "",
-            "mention" : ""
+            "description" : "Le projet était de créer un personnage en 3D avec un squelette (rig).",
+            "cadre" : "École",
+            "mention" : "Individuel"
         },
         {
             "id": 3,
             "titre": "Paysage abstrait",
             "type": "3D",
             "logiciel": "Maya",
-            "description" : "",
-            "cadre" : "",
-            "mention" : ""
+            "description" : "Le but de ce projet était de créer un paysage abstrait, irréel, conceptionnel ou stylisé. Nous avons décider de créer un salon abstrait",
+            "cadre" : "École",
+            "mention" : "Équipe",
+            "cooequipier" : "Ryan Dufault et Benjamin Ferland"
         },
         {
             "id": 4,
             "titre": "MULTI",
             "type": "Audio",
             "logiciel": "Reaper",
-            "description" : "",
-            "cadre" : "",
-            "mention" : ""
+            "description" : "Un micromonatge sur plusieurs couches dans reaper",
+            "cadre" : "École",
+            "mention" : "Individuel"
         },
         {
             "id": 5,
             "titre": "MICRO",
             "type" : "Audio",
             "logiciel" : "Reaper",
-            "description" : "",
-            "cadre" : "",
-            "mention" : ""
+            "description" : "La réalisation d'un micromontage sur un cours à partir des sons enregistrer du dernier projet",
+            "cadre" : "École",
+            "mention" : "Individuel"
         }
 ]
