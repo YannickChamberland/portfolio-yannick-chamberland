@@ -1,3 +1,5 @@
+  //Section App vue
+
 const app = Vue.createApp({
     data() {
       return {
@@ -23,4 +25,5 @@ const app = Vue.createApp({
   });
   
   app.mount('#app');
-  
+
+  //Section animation GSAP
