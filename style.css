@@ -249,3 +249,8 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
+audio{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
