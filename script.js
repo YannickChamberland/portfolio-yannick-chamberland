@@ -27,3 +27,47 @@ const app = Vue.createApp({
   app.mount('#app');
 
   //Section animation GSAP
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+
+  //Animation texte
+
+  mytitleSplitText = new SplitText("h1", { type: "words,chars" });
+  let titre = mytitleSplitText.chars;
+
+  gsap.from(titre, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    x: 80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
+
+
+  mytextSplitText = new SplitText(".textA", { type: "words,chars" });
+  let textA = mytextSplitText.chars;
+
+  gsap.from(textA, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    y: -80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
+
+  mylinkSplitText = new SplitText("a", { type: "words,chars" });
+  let lien = mylinkSplitText.chars;
+
+  gsap.from(lien, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    x: -80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
