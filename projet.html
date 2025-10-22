@@ -31,20 +31,18 @@
                     <div class="card-body">
                         <h3 class="card-title">{{ projet.titre }}</h3>
                         <img src="projet.image">
-                        <p><strong>Type :</strong> {{ projet.type }}</p>
+                        <p><strong>Type :</strong> {{ projet.type }}</p> <!--Section avec les informations du fetch-->
                         <p><strong>Logiciel :</strong> {{ projet.logiciel }}</p>
                         <p><strong>Description :</strong> {{ projet.description }}</p>
                         <p><strong>Cadre :</strong> {{ projet.cadre }}</p>
                         <p><strong>Mention :</strong> {{ projet.mention }}</p>
                         <p><strong>Cooéquipier :</strong> {{ projet.cooequipier }}</p>
-                        <video src="projet.video" controls></video>
-                        <audio src="projet.audio" controls></audio>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!--Processus de création-->
     <div class="container">
         <div id="sectionPR2">
         <h3 id="titrePR">Processus de création</h3>
@@ -68,6 +66,22 @@
         <br>
         <p id="textPR">Posing</p>
         <img src="img/pose-4.jpg" id="imgPR" class="col-10">
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="sectionPR3">
+            <h3 id="titrePR">Gallerie Bonus</h3>
+            <br>
+            <p id="textPR">Voici une gallerie dédier à certain projets</p>
+            <br>
+            <p id="textPR">Le projet Paysage</p>
+            <video src="video/paysage3D.mp4" controls class="col-10"></video>
+            <audio src="audio/media_paysageAudio.wav" controls></audio>
+            <p id="textPR">Le projet Multi</p>
+            <audio src="audio/media_131_T_MULTI_chamberland_yannick.wav" controls></audio>
+            <p id="textPR">Le projet Micro</p>
+            <audio src="audio/131_T_MICRO_chamberland_yannick.wav" controls></audio>
         </div>
     </div>
     <script src="script.js"></script>

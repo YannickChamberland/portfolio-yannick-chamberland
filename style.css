@@ -238,6 +238,14 @@ p {
 }
 
 #imgPR{
-   /* width: 1500px;*/
     margin: 25px;
+}
+
+#sectionPR3{
+    margin-top: 50px;
+    background-color: #5A189A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
