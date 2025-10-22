@@ -131,3 +131,19 @@ gsap.from("#card2",{
   x: "1000px",
   duration: 1
 })
+
+//Animation Page contact
+
+gsap.from("#moi2",{
+  opacity: 0,
+  duration: 2
+})
+
+gsap.from(".sectionC",{
+  opacity: 0,
+  duration: 1
+})
+
+
+//Animation Page projet
+
