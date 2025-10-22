@@ -209,10 +209,12 @@ p {
 
 .imgP{
     width: 45px;
+    filter: contrast(200%);
 }
 
 .imgP2{
     width: 65px;
+    filter: contrast(200%);
 }
 
 #sectionPR{
