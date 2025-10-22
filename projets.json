@@ -29,11 +29,7 @@
             "cadre" : "École",
             "mention" : "Équipe",
             "cooequipier" : "Ryan Dufault et Benjamin Ferland",
-            "image" : [
-                "img/01_rendu.jpg",
-                "img/02_rendu.jpg",
-                "img/03_rendu.jpg"
-            ]
+            "image" : "img/01_rendu.jpg"
         },
         {
             "id": 4,
