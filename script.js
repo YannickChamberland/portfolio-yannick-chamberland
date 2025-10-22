@@ -147,3 +147,23 @@ gsap.from(".sectionC",{
 
 //Animation Page projet
 
+gsap.from("#sectionPR",{
+  opacity: 0,
+  duration: 1.5
+})
+
+gsap.from("#sectionPR2",{
+  scrollTrigger: "#sectionPR2",
+  y: "1000px",
+  duration: 1.5,
+  scrub: 1,
+  start: "top top"
+})
+
+gsap.from("#sectionPR3",{
+  scrollTrigger: "#sectionPR3",
+  x: "-1000",
+  duration: 1.5, 
+  scrub: 1,
+  start: "top top"
+})
