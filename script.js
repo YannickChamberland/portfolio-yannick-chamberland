@@ -71,3 +71,42 @@ const app = Vue.createApp({
     ease: "back",
     stagger: 0.01,
   });
+
+  mytext2SplitText = new SplitText(".textC", { type: "words,chars" });
+  let textC = mytext2SplitText.chars;
+
+  gsap.from(textC, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    x: -80,
+    y: -80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
+
+  //Animation normale
+
+  //Timeline page à propos
+  gsap.timeline()
+  .from("#divP",{
+    x: "1000px",
+    duration: 1
+  })
+  .from("#divP2",{
+    x: "-10000px",
+    duration: 1
+  })
+  .from("#sectionP2",{
+    y: "1000px",
+    duration: 1
+  })
+  .from("#divP3",{
+    opacity: 0,
+    duration: 1
+  })
+  .from("#divP4",{
+    opacity: 0,
+    duration: 1
+  })
