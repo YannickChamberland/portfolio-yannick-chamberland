@@ -209,6 +209,7 @@ p {
 
 #sectionPR{
     background-color: #5A189A;
+    margin-top: 15px;
 }
 
 #sectionPR2{
@@ -253,4 +254,10 @@ audio{
 
 #lien{
     margin-right: 5px;
+}
+
+@media screen and (max-width: 761px) { 
+    #carte {
+        width: 450px;
+    }
 }
