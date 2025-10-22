@@ -110,3 +110,24 @@ const app = Vue.createApp({
     opacity: 0,
     duration: 1
   })
+
+  //Animation Page Accueil
+
+gsap.from("#divA",{
+  x: "1000px",
+  duration: 1
+})
+
+gsap.from("#moi",{
+  x: "-1000px",
+  duration: 1
+})
+
+gsap.from("#card1",{
+  x: "-1000px",
+  duration: 1
+})  
+gsap.from("#card2",{
+  x: "1000px",
+  duration: 1
+})
