@@ -121,21 +121,11 @@ p {
     margin-top: 50px;
     height: 120px;
 }
-#divC2:hover{
-    -webkit-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
-    -moz-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
-    box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
-}
 #divC3 {
     background-color: #FFF9EB;
     margin-top: 50px;
     height: 120px;
 
-}
-#divC3:hover{
-    -webkit-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1); /*Code pour effet de glow*/
-    -moz-box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
-    box-shadow: 0px 0px 118px 9px rgba(161, 46, 255, 1);
 }
 .textC2 {
     font-size: 35px;
