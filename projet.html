@@ -30,8 +30,8 @@
             <div v-for="projet in projets" class="col-lg-5">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title">{{ projet.titre }}</h3>
-                        <img :src="projet.image" class="col-10">
+                        <h3 class="card-title" id="titreVue">{{ projet.titre }}</h3>
+                        <img :src="projet.image" class="col-12">
                         <p><strong>Type :</strong> {{ projet.type }}</p> <!--Section avec les informations du fetch-->
                         <p><strong>Logiciel :</strong> {{ projet.logiciel }}</p>
                         <p><strong>Description :</strong> {{ projet.description }}</p>

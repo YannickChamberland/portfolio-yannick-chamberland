@@ -47,7 +47,7 @@
             "titre": "MICRO",
             "type" : "Audio",
             "logiciel" : "Reaper",
-            "description" : "La réalisation d'un micromontage sur une piste à partir des sons enregistrer du dernier projet",
+            "description" : "La réalisation d'un micromontage sur une piste",
             "cadre" : "École",
             "mention" : "Individuel",
             "image" : "img/image_audio_micro.png",
