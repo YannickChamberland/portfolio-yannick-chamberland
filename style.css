@@ -254,8 +254,13 @@ audio{
     margin-bottom: 25px;
 }
 
+
+.titreHead{
+    margin-left: 15px;
+}
+
 #lien{
-    margin-left: 5px;
+    margin-left: 6px;
 }
 
 @media screen and (max-width: 761px) { 
