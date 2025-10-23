@@ -123,14 +123,11 @@ gsap.from("#moi",{
   duration: 1
 })
 
-gsap.from("#card1",{
-  x: "-1000px",
+gsap.from("#carteA",{
+  y: "1000px",
   duration: 1
 })  
-gsap.from("#card2",{
-  x: "1000px",
-  duration: 1
-})
+
 
 //Animation Page contact
 
