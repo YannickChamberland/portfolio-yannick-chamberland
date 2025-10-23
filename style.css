@@ -259,8 +259,12 @@ audio{
     margin-left: 15px;
 }
 
+#lien1{
+    margin-left: 15px;
+}
+
 #lien{
-    margin-left: 6px;
+    margin-left: 5px;
 }
 
 @media screen and (max-width: 761px) { 
