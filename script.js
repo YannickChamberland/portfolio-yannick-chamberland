@@ -123,6 +123,11 @@ gsap.from("#moi",{
   duration: 1
 })
 
+gsap.from("#titreA",{
+  x: "-1000px",
+  duration: 1
+})  
+
 gsap.from("#carteA",{
   y: "1000px",
   duration: 1
