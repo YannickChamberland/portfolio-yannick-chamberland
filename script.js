@@ -135,13 +135,15 @@ gsap.from("#card2",{
 //Animation Page contact
 
 gsap.from("#moi2",{
+  x: "1000px",
   opacity: 0,
-  duration: 2
+  duration: 1
 })
 
 gsap.from(".sectionC",{
+  y: "1000px",
   opacity: 0,
-  duration: 1
+  duration: 2.5
 })
 
 
