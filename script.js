@@ -1,30 +1,46 @@
-  //Section App vue
-
+// Section App Vue
 const app = Vue.createApp({
-    data() {
-      return {
-        projets: [] // tableau qui contiendra les données du JSON
+  data() {
+    return {
+      projets: [], // tableau qui contiendra les données du JSON
+      indexActuel: 0 // index du projet actuellement affiché
+    }
+  },
+
+  mounted() {
+    fetch('projets.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Erreur lors du chargement du fichier JSON");
+        }
+        return response.json();
+      })
+      .then(data => {
+        this.projets = data;
+      })
+      .catch(error => {
+        console.error('Erreur lors du chargement du JSON :', error);
+      });
+  },
+
+  methods: {
+    precedent() {
+      if (this.projets.length > 0) {
+        this.indexActuel =
+          (this.indexActuel - 1 + this.projets.length) % this.projets.length;
       }
     },
-  
-    mounted() {
-      fetch('projets.json') // chemin vers fichier JSON
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("Erreur lors du chargement du fichier JSON");
-          }
-          return response.json();
-        })
-        .then(data => {
-          this.projets = data; // stocke le JSON dans le tableau projets
-        })
-        .catch(error => {
-          console.error('Erreur lors du chargement du JSON :', error);
-        });
+    suivant() {
+      if (this.projets.length > 0) {
+        this.indexActuel =
+          (this.indexActuel + 1) % this.projets.length;
+      }
     }
-  });
-  
-  app.mount('#app');
+  }
+});
+
+app.mount('#app');
+
 
   //Section animation GSAP
 

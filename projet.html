@@ -15,34 +15,41 @@
 </head>
 
 <body>
-    <div id="app" class="container">
-        <header class="col-mb-4">
-            <h1 class="titreHead">Portfolio de Yannick Chamberland</h1>
-            <nav>
-                <a href="accueil.html" id="lien1">Accueil</a> 
-                <a href="projet.html" id="lien">Projets</a> 
-                <a href="contact.html" id="lien">Contact</a> 
-                <a href="propos.html" id="lien">À propos</a>
-            </nav>
-        </header>
-        
-        <div id="sectionPR" class="row">
-            <div v-for="projet in projets" class="col-lg-5">
-                <div class="card" id="carte">
-                    <div class="card-body">
-                        <h3 class="card-title" id="titreVue">{{ projet.titre }}</h3>
-                        <img :src="projet.image" class="col-12">
-                        <p><strong>Type :</strong> {{ projet.type }}</p> <!--Section avec les informations du fetch-->
-                        <p><strong>Logiciel :</strong> {{ projet.logiciel }}</p>
-                        <p><strong>Description :</strong> {{ projet.description }}</p>
-                        <p><strong>Cadre :</strong> {{ projet.cadre }}</p>
-                        <p><strong>Mention :</strong> {{ projet.mention }}</p>
-                        <p><strong>Cooéquipier :</strong> {{ projet.cooequipier }}</p>
-                    </div>
-                </div>
-            </div>
+<div id="app" class="container">
+  <header class="col-mb-4">
+    <h1 class="titreHead">Portfolio de Yannick Chamberland</h1>
+    <nav>
+      <a href="accueil.html" id="lien1">Accueil</a> 
+      <a href="projet.html" id="lien">Projets</a> 
+      <a href="contact.html" id="lien">Contact</a> 
+      <a href="propos.html" id="lien">À propos</a>
+    </nav>
+  </header>
+
+  <div id="sectionPR" class="row" v-if="projets.length">
+    <div class="col-lg-5">
+      <div class="card" id="carte">
+        <div class="card-body" v-if="projets[indexActuel]">
+          <h3 class="card-title" id="titreVue">{{ projets[indexActuel].titre }}</h3>
+          <img :src="projets[indexActuel].image" class="col-12">
+          <p><strong>Type :</strong> {{ projets[indexActuel].type }}</p>
+          <p><strong>Logiciel :</strong> {{ projets[indexActuel].logiciel }}</p>
+          <p><strong>Description :</strong> {{ projets[indexActuel].description }}</p>
+          <p><strong>Cadre :</strong> {{ projets[indexActuel].cadre }}</p>
+          <p><strong>Mention :</strong> {{ projets[indexActuel].mention }}</p>
+          <p><strong>Cooéquipier :</strong> {{ projets[indexActuel].cooequipier }}</p>
         </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Boutons de navigation du carrousel -->
+  <div class="navigation" style="margin-top: 1rem;">
+    <button @click="precedent">⟨ Précédent</button>
+    <button @click="suivant">Suivant ⟩</button>
+  </div>
+</div>
+
     <!--Processus de création-->
     <div class="container">
         <div id="sectionPR2">
