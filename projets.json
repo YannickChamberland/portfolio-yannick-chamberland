@@ -7,7 +7,8 @@
             "description" : "Réaliser un paysage sonore sur un thème choisi, destiné à évoquer des émotions chez les utilisateurs, ainsi qu’un court métrage d’animation en lien avec ce thème.",
             "cadre" : "École",
             "mention" : "Individuel",
-            "image" : "img/image_paysage_anim.png"
+            "image" : "img/image_paysage_anim.png",
+            "role" : "Modélisateur, monteur vidéo, animateur et concepteur sonore"
         },
         {
             "id": 2,
@@ -17,7 +18,8 @@
             "description" : "Le projet consistait à créer un personnage en 3D avec un squelette (rig).",
             "cadre" : "École",
             "mention" : "Individuel",
-            "image" : "img/pose-6.jpg"
+            "image" : "img/pose-6.jpg",
+            "role" : "Modélisateur, rigger"
         },
         {
             "id": 3,
@@ -28,7 +30,8 @@
             "cadre" : "École",
             "mention" : "Équipe",
             "cooequipier" : "Ryan Dufault et Benjamin Ferland",
-            "image" : "img/01_rendu.jpg"
+            "image" : "img/01_rendu.jpg",
+            "role" : "Modélisateur"
         },
         {
             "id": 4,
@@ -39,7 +42,8 @@
             "cadre" : "École",
             "mention" : "Individuel",
             "image" : "img/image_audio_multi.png",
-            "audio" : "audio/media_131_T_MULTI_chamberland_yannick.wav"
+            "audio" : "audio/media_131_T_MULTI_chamberland_yannick.wav",
+            "role" : "Concepteur sonore"
             
         },
         {
@@ -51,6 +55,7 @@
             "cadre" : "École",
             "mention" : "Individuel",
             "image" : "img/image_audio_micro.png",
-            "audio" : "audio/131_T_MICRO_chamberland_yannick.wav"
+            "audio" : "audio/131_T_MICRO_chamberland_yannick.wav",
+            "role" : "Concepteur sonore"
         }
 ]
