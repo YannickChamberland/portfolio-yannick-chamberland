@@ -25,12 +25,12 @@
       <a href="propos.html" id="lien">À propos</a>
     </nav>
   </header>
-
+<!--Section Projet avec json-->
   <div id="sectionPR" class="row" v-if="projets.length">
     <div class="col-lg-5">
       <div class="card" id="carte">
         <div class="card-body" v-if="projets[indexActuel]">
-          <h3 class="card-title" id="titreVue">{{ projets[indexActuel].titre }}</h3>
+          <h3 class="card-title" id="titreVue">{{ projets[indexActuel].titre }}</h3> <!--Met les titres du tableau json selon l'index actuel-->
           <img :src="projets[indexActuel].image" class="col-12">
           <p><strong>Type :</strong> {{ projets[indexActuel].type }}</p>
           <p><strong>Logiciel :</strong> {{ projets[indexActuel].logiciel }}</p>
