@@ -16,14 +16,14 @@ const app = Vue.createApp({
         return response.json();
       })
       .then(data => {
-        this.projets = data;
+        this.projets = data; //Met le fetch dans le tableau
       })
       .catch(error => {
         console.error('Erreur lors du chargement du JSON :', error);
       });
   },
 
-  methods: {
+  methods: { //Fonction qui fait en sorte que quand on clique sur le bouton on passe d'une carte à l'autre
     precedent() {
       if (this.projets.length > 0) {
         this.indexActuel =

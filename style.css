@@ -223,12 +223,12 @@ p {
   width: 100%;
   max-width: 600px;
   height: 550px; 
-  overflow: hidden; 
+  overflow: hidden; /*Cache si les infomations dépasse de la carte*/
 }
 
 #carte .card-body {
   overflow-y: auto;
-  padding: 1rem;
+  padding: 1rem; /*Fait en sorte qu'on peut scroller dans la carte*/
 }
 
 #carte .card-body::-webkit-scrollbar {
@@ -294,7 +294,7 @@ audio{
 
 @media screen and (max-width: 761px) { 
     #carte {
-        width: 450px;
+        width: 450px; /*Fait en sorte que les carte de ne sortent pas de la section*/
     }
 }
 
