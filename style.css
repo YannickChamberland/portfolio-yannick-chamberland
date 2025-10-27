@@ -232,10 +232,11 @@ p {
 }
 
 #carte .card-body::-webkit-scrollbar {
-  width: 6px;
+  width: 6px; /*Change le width du scrollbar*/
 }
+
 #carte .card-body::-webkit-scrollbar-thumb {
-  background-color: rgba(0,0,0,0.3);
+  background-color: #7B2CBF; /*Couleur du scoll bar*/
   border-radius: 10px;
 }
 
