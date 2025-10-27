@@ -98,6 +98,51 @@ p {
     font-size: larger;
 }
 
+@media screen and (max-width: 569px) { 
+    #boutonA{
+        margin-left: 160px;
+    }
+    #boutoncarte {
+        margin-left: 140px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 521px) { 
+    #boutonA{
+        margin-left: 130px;
+    }
+    #boutoncarte {
+        margin-left: 120px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 390px) { 
+    #boutonA{
+        margin-left: 100px;
+    }
+    #boutoncarte {
+        margin-left: 100px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 281px) { 
+    #boutonA{
+        margin-left: 50px;
+    }
+    #boutoncarte {
+        margin-left: 50px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 229px) { 
+    #boutonA{
+        margin-left: 25px;
+    }
+    #boutoncarte {
+        margin-left: 25px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
 #boutoncarte:hover { /*Changement de style quand on a la souris sur le bouton*/
     background-image: linear-gradient(to bottom, #3C096C, #3C096C);
 }
@@ -111,6 +156,17 @@ p {
 .textC {
     font-size: 35px;
 }
+
+@media screen and (max-width: 1145px) { 
+    #divC{
+        height: 250px
+    }
+
+    #divC2{
+        width: 450px;
+    }
+}
+
 
 #moi2 {
     margin-top: 50px;
@@ -296,6 +352,24 @@ audio{
 @media screen and (max-width: 761px) { 
     #carte {
         width: 450px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #carte {
+        width: 300px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 350px) { 
+    #carte {
+        width: 250px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+}
+
+@media screen and (max-width: 300px) { 
+    #carte {
+        width: 200px; /*Fait en sorte que les carte de ne sortent pas de la section*/
     }
 }
 
