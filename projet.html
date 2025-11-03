@@ -2,106 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projet</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
 </head>
 
 <body>
-<div id="app" class="container">
-  <header class="col-mb-4">
-    <h1 class="titreHead">Portfolio de Yannick Chamberland</h1>
-    <nav>
-      <a href="index.html" id="lien1">Accueil</a> 
-      <a href="projet.html" id="lien">Projets</a> 
-      <a href="contact.html" id="lien">Contact</a> 
-      <a href="propos.html" id="lien">À propos</a>
-    </nav>
-  </header>
-<!--Section Projet avec json-->
-  <div id="sectionPR" class="row" v-if="projets.length">
-    <div class="col-lg-5">
-      <div class="card" id="carte">
-        <div class="card-body" v-if="projets[indexActuel]">
-          <h3 class="card-title" id="titreVue">{{ projets[indexActuel].titre }}</h3> <!--Met les info du tableau json dans la carte selon l'index actuel-->
-          <img :src="projets[indexActuel].image" class="col-12">
-          <p><strong>Type :</strong> {{ projets[indexActuel].type }}</p>
-          <p><strong>Logiciel :</strong> {{ projets[indexActuel].logiciel }}</p>
-          <p><strong>Description :</strong> {{ projets[indexActuel].description }}</p>
-          <p><strong>Cadre :</strong> {{ projets[indexActuel].cadre }}</p>
-          <p><strong>Mention :</strong> {{ projets[indexActuel].mention }}</p>
-          <p><strong>Rôle :</strong> {{ projets[indexActuel].role }}</p>
-          <p><strong>Cooéquipier :</strong> {{ projets[indexActuel].cooequipier }}</p>
+  <div id="app" class="container">
+    <header class="col-mb-4">
+      <h1 class="titreHead">Portfolio de Yannick Chamberland</h1>
+      <nav>
+        <a href="index.html" id="lien1">Accueil</a>
+        <a href="projet.html" id="lien">Projets</a>
+        <a href="contact.html" id="lien">Contact</a>
+        <a href="propos.html" id="lien">À propos</a>
+      </nav>
+    </header>
+    <!--Section Projet avec json-->
+    <div id="sectionPR" class="row" v-if="projets.length">
+      <div class="col-lg-5">
+        <div class="card" id="carte">
+          <div class="card-body" v-if="projets[indexActuel]">
+            <h3 class="card-title" id="titreVue">{{ projets[indexActuel].titre }}</h3>
+            <!--Met les info du tableau json dans la carte selon l'index actuel-->
+            <img :src="projets[indexActuel].image" class="col-12">
+            <p><strong>Type :</strong> {{ projets[indexActuel].type }}</p>
+            <p><strong>Logiciel :</strong> {{ projets[indexActuel].logiciel }}</p>
+            <p><strong>Description :</strong> {{ projets[indexActuel].description }}</p>
+            <p><strong>Cadre :</strong> {{ projets[indexActuel].cadre }}</p>
+            <p><strong>Mention :</strong> {{ projets[indexActuel].mention }}</p>
+            <p><strong>Rôle :</strong> {{ projets[indexActuel].role }}</p>
+            <p><strong>Cooéquipier :</strong> {{ projets[indexActuel].cooequipier }}</p>
+            <p v-if="projets[indexActuel].lien">
+              <strong>En savoir plus :</strong>
+              <a :href="projets[indexActuel].lien" class="lien-projet">
+                Voir le projet
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Boutons de navigation du carrousel -->
+    <div class="navigation">
+      <button @click="precedent">⟨ Précédent</button>
+      <button @click="suivant">Suivant ⟩</button>
+    </div>
   </div>
 
-  <!-- Boutons de navigation du carrousel -->
-  <div class="navigation">
-    <button @click="precedent">⟨ Précédent</button>
-    <button @click="suivant">Suivant ⟩</button>
+  <!--Section Gallerie bonus-->
+  <div class="container">
+    <div id="sectionPR3">
+      <h3 id="titrePR">Gallerie Bonus</h3>
+      <br>
+      <p id="textPR">Voici une gallerie dédier à certain projets</p>
+      <br>
+      <p id="textPR">Le projet Paysage</p>
+      <video src="video/paysage3D.mp4" alt="Vidéo d'ainimation" controls class="col-10"></video>
+      <audio src="audio/media_paysageAudio.wav" alt="L'audio du projet paysage" controls class="col-10"></audio>
+      <p id="textPR">Le projet Personnage</p>
+      <img src="img/pose-5.jpg" alt="Autre image du personnage" class="col-10">
+      <p id="textPR">Le projet Paysage abstrait</p>
+      <img src="img/02_rendu.jpg" alt="Image du paysage abstrait" class="col-10">
+      <img src="img/03_rendu.jpg" alt="Image du paysage abstrait" class="col-10">
+      <p id="textPR">Le projet Multi</p>
+      <audio src="audio/media_131_T_MULTI_chamberland_yannick.wav" alt="Le projet audio Multi" controls
+        class="col-10"></audio>
+      <p id="textPR">Le projet Micro</p>
+      <audio src="audio/131_T_MICRO_chamberland_yannick.wav" alt="Le projet audio Micro" controls
+        class="col-10"></audio>
+    </div>
   </div>
-</div>
-
-    <!--Processus de création-->
-    <div class="container">
-        <div id="sectionPR2">
-        <h3 id="titrePR">Processus de création</h3>
-        <br>
-        <p id="textPR">Voici le processus de création du projet « Personnage »</p>
-        <img src="img/pose-6.jpg" alt="Image du Personnage" id="imgPR" class="col-10">
-        <br>
-        <h3 id="titrePR">Étape 1</h3>
-        <br>
-        <p id="textPR">La recherche d'inspiration</p>
-        <img src="img/Inspiraton.png" alt="Image d'un moodboard" id="imgPR" class="col-10">
-        <h3 id="titrePR">Étape 2</h3>
-        <br>
-        <p id="textPR">La modélisation</p>
-        <img src="img/Modélisation.1.png" alt="Image du personnage en cours de modélisation" id="imgPR" class="col-10">
-        <h3 id="titrePR">Étape 3</h3>
-        <br>
-        <p id="textPR">L'ajout des matériaux</p>
-        <img src="img/Texturer.png" alt="Image du personnage avec ses matériaux" id="imgPR" class="col-10">
-        <h3 id="titrePR">Étape 4</h3>
-        <br>
-        <p id="textPR">L'ajout du squelette (le rigging)</p>
-        <img src="img/rigging.png" alt="Image du personnage avec son squelette" id="imgPR" class="col-10">
-        <h3 id="titrePR">Étape 5</h3>
-        <br>
-        <p id="textPR">Posing</p>
-        <img src="img/pose-4.jpg" alt="Image du personnage avec une pose distinct" id="imgPR" class="col-10">
-        </div>
-    </div>
-    <!--Section Gallerie bonus-->
-    <div class="container">
-        <div id="sectionPR3">
-            <h3 id="titrePR">Gallerie Bonus</h3>
-            <br>
-            <p id="textPR">Voici une gallerie dédier à certain projets</p>
-            <br>
-            <p id="textPR">Le projet Paysage</p>
-            <video src="video/paysage3D.mp4" alt="Vidéo d'ainimation" controls class="col-10"></video>
-            <audio src="audio/media_paysageAudio.wav" alt="L'audio du projet paysage" controls class="col-10"></audio>
-            <p id="textPR">Le projet Personnage</p>
-            <img src="img/pose-5.jpg" alt="Autre image du personnage" class="col-10">
-            <p id="textPR">Le projet Paysage abstrait</p>
-            <img src="img/02_rendu.jpg" alt="Image du paysage abstrait" class="col-10">
-            <img src="img/03_rendu.jpg" alt="Image du paysage abstrait" class="col-10">
-            <p id="textPR">Le projet Multi</p>
-            <audio src="audio/media_131_T_MULTI_chamberland_yannick.wav" alt="Le projet audio Multi" controls class="col-10"></audio>
-            <p id="textPR">Le projet Micro</p>
-            <audio src="audio/131_T_MICRO_chamberland_yannick.wav" alt="Le projet audio Micro" controls class="col-10"></audio>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

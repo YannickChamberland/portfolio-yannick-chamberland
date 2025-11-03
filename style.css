@@ -266,7 +266,6 @@ p {
 }
 
 #sectionPR { /*Css d'une section*/
-  background-color: #5A189A;
   margin-top: 15px;
   display: flex;
   justify-content: center;
@@ -277,8 +276,8 @@ p {
 
 #carte {
   width: 100%;
-  max-width: 600px;
-  height: 550px; 
+  max-width: 1000px;
+  height: 600px; 
   overflow: hidden; /*Cache si les infomations dépasse de la carte*/
 }
 
@@ -392,4 +391,14 @@ audio{
 .navigation button:hover {
   background-color: #FFF9EB;
   color: #5A189A;
+}
+
+.lien-projet {
+  color: #7B2CBF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lien-projet:hover {
+  text-decoration: underline;
 }

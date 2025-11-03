@@ -8,7 +8,8 @@
             "cadre" : "École",
             "mention" : "Individuel",
             "image" : "img/image_paysage_anim.png",
-            "role" : "Modélisateur, monteur vidéo, animateur et concepteur sonore"
+            "role" : "Modélisateur, monteur vidéo, animateur et concepteur sonore",
+            "lien" : "/paysage.html"
         },
         {
             "id": 2,
@@ -19,7 +20,8 @@
             "cadre" : "École",
             "mention" : "Individuel",
             "image" : "img/pose-6.jpg",
-            "role" : "Modélisateur, rigger"
+            "role" : "Modélisateur, rigger",
+            "lien" : "/personnage.html"
         },
         {
             "id": 3,
@@ -31,7 +33,8 @@
             "mention" : "Équipe",
             "cooequipier" : "Ryan Dufault et Benjamin Ferland",
             "image" : "img/01_rendu.jpg",
-            "role" : "Modélisateur, Rôle de Ryan et Benjamin : Modélisateur"
+            "role" : "Modélisateur, Rôle de Ryan et Benjamin : Modélisateur",
+            "lien" : "/paysage_abstrait.html"
         },
         {
             "id": 4,
@@ -43,7 +46,8 @@
             "mention" : "Individuel",
             "image" : "img/image_audio_multi.png",
             "audio" : "audio/media_131_T_MULTI_chamberland_yannick.wav",
-            "role" : "Concepteur sonore"
+            "role" : "Concepteur sonore",
+            "lien" : "/multi.html"
             
         },
         {
@@ -56,6 +60,7 @@
             "mention" : "Individuel",
             "image" : "img/image_audio_micro.png",
             "audio" : "audio/131_T_MICRO_chamberland_yannick.wav",
-            "role" : "Concepteur sonore"
+            "role" : "Concepteur sonore",
+            "lien" : "/micro.html"
         }
 ]
