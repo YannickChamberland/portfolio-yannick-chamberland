@@ -102,6 +102,49 @@ app.mount('#app');
     stagger: 0.01,
   });
 
+  mytext3SplitText = new SplitText("#textPR1", { type: "words,chars" });
+  let textD = mytext3SplitText.chars;
+
+  gsap.from(textD, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    x: -80,
+    y: -80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
+
+
+  mytext4SplitText = new SplitText("#titrePR1", { type: "words,chars" });
+  let textE = mytext4SplitText.chars;
+
+  gsap.from(textE, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    x: -80,
+    y: -80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
+
+  mytext5SplitText = new SplitText("#textPR1S", { type: "words,chars" });
+  let textF = mytext5SplitText.chars;
+
+  gsap.from(textF, {
+    duration: 0.8,
+    opacity: 0,
+    scale: 0,
+    x: -80,
+    y: -80,
+    transformOrigin: "0% 50% -50",
+    ease: "back",
+    stagger: 0.01,
+  });
+
   //Animation normale
 
   //Timeline page à propos
@@ -166,6 +209,12 @@ gsap.from(".sectionC",{
 
 
 //Animation projet
+
+gsap.from("#sectionPR1",{
+  x: "1000px",
+  duration: 1.5
+})
+
 
 gsap.from("#sectionPR2",{
   scrollTrigger: "#sectionPR2",
