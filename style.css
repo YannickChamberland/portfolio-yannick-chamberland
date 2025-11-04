@@ -437,3 +437,23 @@ audio{
 #imgPRO2{
     width: 700px;
 }
+
+@media screen and (max-width: 901px) { 
+    #imgPRO {
+        width: 450px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+
+    #imgPRO2{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 758px) { 
+    #imgPRO {
+        width: 450px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+
+    #imgPRO2{
+        width: 450px;
+    }
+}
