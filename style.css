@@ -310,7 +310,7 @@ p {
 
 #textPR{
     color: #FFF9EB;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #imgPR{
@@ -401,4 +401,31 @@ audio{
 
 .lien-projet:hover {
   text-decoration: underline;
+}
+
+
+#sectionPR1{
+    margin-top: 15px;
+    background-color: #5A189A;
+}
+
+#titrePR1{
+    color: #FFF9EB;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#textPR1{
+    color: #FFF9EB;
+    font-size: x-large;
+}
+
+#imgPR1{
+    width: 150px;
+}
+
+#textPR1S{
+    color: #FFF9EB;
+    font-size: x-large;
+    padding-top: 15px;
 }
