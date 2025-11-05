@@ -470,3 +470,8 @@ audio{
         width: 300px;
     }
 }
+
+#textpropos{
+    padding-left: 10px;
+    padding-right: 10px;
+}
