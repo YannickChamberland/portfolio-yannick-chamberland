@@ -13,6 +13,7 @@ body {
 a {
     color: white;
     font-family: CT;
+    padding-left: 15px;
 }
 
 h1 {
@@ -457,5 +458,15 @@ audio{
 
     #imgPRO2{
         width: 450px;
+    }
+}
+
+@media screen and (max-width: 431px) { 
+    #imgPRO {
+        width: 300px; /*Fait en sorte que les carte de ne sortent pas de la section*/
+    }
+
+    #imgPRO2{
+        width: 300px;
     }
 }
