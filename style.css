@@ -401,6 +401,7 @@ audio{
   color: #7B2CBF;
   text-decoration: none;
   font-weight: bold;
+  padding-left: 0;
 }
 
 .lien-projet:hover {
