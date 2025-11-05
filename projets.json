@@ -9,7 +9,7 @@
             "mention" : "Individuel",
             "image" : "img/image_paysage_anim.png",
             "role" : "Modélisateur, monteur vidéo, animateur et concepteur sonore",
-            "lien" : "/paysage.html"
+            "lien" : "/portfolio-yannick-chamberland/paysage.html"
         },
         {
             "id": 2,
@@ -21,7 +21,7 @@
             "mention" : "Individuel",
             "image" : "img/pose-6.jpg",
             "role" : "Modélisateur, rigger",
-            "lien" : "/personnage.html"
+            "lien" : "/portfolio-yannick-chamberland/personnage.html"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "cooequipier" : "Ryan Dufault et Benjamin Ferland",
             "image" : "img/01_rendu.jpg",
             "role" : "Modélisateur, Rôle de Ryan et Benjamin : Modélisateur",
-            "lien" : "/paysage_abstrait.html"
+            "lien" : "/portfolio-yannick-chamberland/paysage_abstrait.html"
         },
         {
             "id": 4,
@@ -47,7 +47,7 @@
             "image" : "img/image_audio_multi.png",
             "audio" : "audio/media_131_T_MULTI_chamberland_yannick.wav",
             "role" : "Concepteur sonore",
-            "lien" : "/multi.html"
+            "lien" : "/portfolio-yannick-chamberland/multi.html"
             
         },
         {
@@ -61,6 +61,6 @@
             "image" : "img/image_audio_micro.png",
             "audio" : "audio/131_T_MICRO_chamberland_yannick.wav",
             "role" : "Concepteur sonore",
-            "lien" : "/micro.html"
+            "lien" : "/portfolio-yannick-chamberland/micro.html"
         }
 ]
